@@ -17,22 +17,6 @@ export default {
   },
   methods: {
     changeLocale () { i18n.locale = i18n.locale === 'en' ? 'nl' : 'en' }
-  },
-  data () {
-    return {
-      languages: [
-        {
-          flag: 'gb',
-          language: 'en',
-          title: 'English'
-        },
-        {
-          flag: 'nl',
-          language: 'nl',
-          title: 'Nederlands'
-        }
-      ]
-    }
   }
 }
 </script>
@@ -45,7 +29,6 @@ export default {
 .flag-container {
     display: flex;
     overflow: hidden;
-    background: grey;
     width: 32px;
     height: 16px;
     border-radius: 8px;

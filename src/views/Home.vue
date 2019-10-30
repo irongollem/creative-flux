@@ -3,6 +3,7 @@
     <article class="container">
       <header class="header">
         <span class="has-text-satisfy">Creative</span><span class="has-text-play">FLUX</span>
+        <div class="subheader has-text-play">DESIGN & DEVELOPMENT</div>
       </header>
       <section>
         {{$t('welcomeMsg')}}
@@ -55,6 +56,16 @@ export default {
   left: 0;
 }
 .header {
-  font-size: 2rem;
+  font-size: 3rem;
+  & *:first-child {
+    margin-right: -.1rem;
+    color: #77A6C8;
+  }
+}
+.subheader {
+  margin: -1.5rem 0 1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 3px;
 }
 </style>
