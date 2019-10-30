@@ -48,12 +48,18 @@ export default {
   background-color: whitesmoke;
   height: 100vh;
   padding: 2rem 2rem 2rem 1rem;
+  min-width: calc(100% - 1100px);
+  max-width: calc(100% - 600px);
   width: 50%;
-  border-top-right-radius: 25% 60%;
-  border-bottom-right-radius: 25% 50%;
+  // border-top-right-radius: 25% 60%;
+  // border-bottom-right-radius: 25% 50%;
   position: fixed;
   top: 0;
   left: 0;
+  @media screen and (max-width: 1130px) {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 .header {
   font-size: 3rem;

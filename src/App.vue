@@ -5,6 +5,13 @@
 <!--      <router-link to="/about">About</router-link>-->
 <!--    </div>-->
     <div class="topnav">
+      <a href="https://www.linkedin.com/in/jeffrey-ernst/" target="_blank">
+        <img class="github" src="@/assets/LinkedIn_Logo.svg">
+      </a>
+      <a href="https://github.com/irongollem" target="_blank">
+        <img class="github" src="@/assets/GitHub-Mark-32px.png">
+        <img class="github" src="@/assets/GitHub_Logo.png">
+      </a>
       <language-toggle></language-toggle>
     </div>
     <router-view/>
@@ -48,5 +55,12 @@ export default {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  & > * {
+    margin: 0 .2rem;
+  }
+}
+.github {
+  height: 16px;
+  margin: 2px 0;
 }
 </style>
