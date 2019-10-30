@@ -4,9 +4,20 @@
 <!--      <router-link to="/">Home</router-link> |-->
 <!--      <router-link to="/about">About</router-link>-->
 <!--    </div>-->
+    <div class="topnav">
+      <language-toggle></language-toggle>
+    </div>
     <router-view/>
   </div>
 </template>
+
+<script>
+import LanguageToggle from '@/components/LanguageToggle'
+
+export default {
+  components: { LanguageToggle }
+}
+</script>
 
 <style lang="scss">
 #app {
@@ -30,5 +41,12 @@
       color: #42b983;
     }
   }
+}
+.topnav {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 </style>
