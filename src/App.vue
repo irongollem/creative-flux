@@ -63,4 +63,12 @@ export default {
   height: 16px;
   margin: 2px 0;
 }
+
+.h2 {
+  font-size: 2rem;
+}
+
+.collapsable {
+
+}
 </style>

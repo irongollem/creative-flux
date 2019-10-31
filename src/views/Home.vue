@@ -6,7 +6,15 @@
         <div class="subheader has-text-play">DESIGN & DEVELOPMENT</div>
       </header>
       <section>
-        {{$t('welcomeMsg')}}
+        <p>{{$t('welcomeMsg')}}</p>
+      </section>
+      <section class="collapsable">
+        <header class="h2 has-text-play">{{$t('aboutHeader')}}</header>
+        <p>{{$t('aboutMsg')}}</p>
+        <p>{{$t('aboutMsg2')}}</p>
+        <p>{{$t('aboutMsg3')}}</p>
+        <p>{{$t('aboutMsg4')}}</p>
+        ...
       </section>
     </article>
   </div>
@@ -42,12 +50,11 @@ export default {
   background-position: right;
   width: 100%;
   height: 100%;
-  margin-left: 200px;
 }
 .container {
   background-color: whitesmoke;
   height: 100vh;
-  padding: 2rem 2rem 2rem 1rem;
+  padding: 2rem;
   min-width: calc(100% - 1100px);
   max-width: calc(100% - 600px);
   width: 50%;
@@ -57,7 +64,7 @@ export default {
   top: 0;
   left: 0;
   @media screen and (max-width: 1130px) {
-    width: 100%;
+    width: calc(100% - 4rem);
     max-width: 100%;
   }
 }
