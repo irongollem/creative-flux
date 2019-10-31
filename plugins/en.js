@@ -18,5 +18,6 @@ export default {
    This last quality is what usually leads to me having some kind of lead role in a team or at least being included in the more
    complex stories with regards to architecture.`,
   aboutMsg4: `Privately I have twin daughter and son. I enjoy (board)games with friends, painting, pursuing historical or
-   scientific knowledge. Building things, scuba diving and if there is still time left in a day I enjoy a good movie.`
+   scientific knowledge. Building things, scuba diving and if there is still time left in a day I enjoy a good movie.`,
+  examplesHeader: `Examples`
 }

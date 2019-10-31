@@ -5,6 +5,8 @@
 <!--      <router-link to="/about">About</router-link>-->
 <!--    </div>-->
     <div class="topnav">
+      <a href="#welcome">{{$t('aboutHeader')}}</a>
+      <a href="#examples">{{$t('examplesHeader')}}</a>
       <a href="https://www.linkedin.com/in/jeffrey-ernst/" target="_blank">
         <img class="github" src="@/assets/LinkedIn_Logo.svg">
       </a>
@@ -27,6 +29,18 @@ export default {
 </script>
 
 <style lang="scss">
+html {
+  scroll-behavior: smooth;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: .95rem;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

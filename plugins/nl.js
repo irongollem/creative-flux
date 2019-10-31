@@ -21,5 +21,6 @@ export default {
    architectuur.`,
   aboutMsg4: `Persoonlijk heb ik een tweeling zoon en dochter. Ben ik te prikken voor een (bord)spelletje met vrienden,
    houd ik van schilderen, het uitpluizen van historische en wetenschappelijke kennis. Ik houd van dingen bouwen, scuba
-   duiken en als er dan nog tijd over is op de dag houd ik ook van een goede film.`
+   duiken en als er dan nog tijd over is op de dag houd ik ook van een goede film.`,
+  examplesHeader: `Voorbeelden`
 }
