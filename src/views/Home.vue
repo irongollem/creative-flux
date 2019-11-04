@@ -26,6 +26,25 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'home',
+  mounted () {
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.backgroundColor = '#e5b642'
+        } else {
+          entry.target.style.backgroundColor = '#e7eaf0'
+        }
+      })
+    }, { threshold: 0.5 })
+
+    Object.values(this.$refs).forEach(ref => observer.observe(ref))
+  }
+}
+</script>
+
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Play|Satisfy&display=swap");
 
@@ -37,14 +56,16 @@
     font-family: "Satisfy", cursive;
   }
 }
-
+article {
+  transition: all .5s ease-in-out;
+}
 .page {
   background-color: #e7eaf0;
 }
 
 .home {
   background-color: #e7eaf0;
-  background-image: url("../assets/me.jpg");
+  background-image: url("/me.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;

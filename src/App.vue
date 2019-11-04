@@ -11,8 +11,8 @@
         <img class="github" src="@/assets/LinkedIn_Logo.svg">
       </a>
       <a href="https://github.com/irongollem" target="_blank">
-        <img class="github" src="@/assets/GitHub-Mark-32px.png">
-        <img class="github" src="@/assets/GitHub_Logo.png">
+        <img class="github" src="/GitHub-Mark-32px.png">
+        <img class="github" src="/GitHub_Logo.png">
       </a>
       <language-toggle></language-toggle>
     </div>
