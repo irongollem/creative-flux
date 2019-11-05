@@ -65,7 +65,7 @@ article {
 
 .home {
   background-color: #e7eaf0;
-  background-image: url("/me.jpg");
+  background-image: url("/me.jpg?nf_resize=fit&w=1920");
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
