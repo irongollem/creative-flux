@@ -16,7 +16,8 @@
       </a>
       <language-toggle></language-toggle>
     </div>
-    <router-view/>
+    <div>This website is currently under development.</div>
+    <!-- <router-view/> -->
   </div>
 </template>
 
